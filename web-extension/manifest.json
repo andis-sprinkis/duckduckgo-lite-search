@@ -17,7 +17,7 @@
             "search_url": "https://lite.duckduckgo.com/lite/",
             "search_url_post_params": "q={searchTerms}",
             "keyword": "ddg",
-            "favicon_url": "https//duckduckgo.com/favicon.ico",
+            "favicon_url": "https://duckduckgo.com/favicon.ico",
             "is_default": true,
             "encoding": "UTF-8"
         }
