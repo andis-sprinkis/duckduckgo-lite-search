@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "DuckDuckGo Lite Search",
     "description": "Adds DuckDuckGo Lite as a search engine for a more lean web-search experience",
-    "version": "1.0",
+    "version": "1.1",
     "icons": {
         "36": "icons/36.png",
         "48": "icons/48.png",
