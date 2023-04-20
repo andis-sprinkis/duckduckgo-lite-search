@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "DuckDuckGo Lite Search (POST)",
+  "short_name": "DDG Lite",
+  "description": "Adds DuckDuckGo Lite as a search engine for a more lean web-search experience. The HTTP POST method variant.",
+  "version": "1.0",
+  "homepage_url": "https://github.com/andis-sprinkis/duckduckgo-lite-search",
+  "developer": {
+    "name": "Andis Spriņķis",
+    "url": "https://andis.work"
+  },
+  "icons": {
+    "36": "icons/36.png",
+    "48": "icons/48.png",
+    "72": "icons/72.png",
+    "96": "icons/96.png",
+    "144": "icons/144.png",
+    "192": "icons/192.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "DuckDuckGo Lite",
+      "search_url": "https://lite.duckduckgo.com/lite/",
+      "search_url_post_params": "q={searchTerms}",
+      "keyword": "ddg",
+      "favicon_url": "https://duckduckgo.com/favicon.ico",
+      "is_default": true,
+      "encoding": "UTF-8"
+    }
+  }
+}
